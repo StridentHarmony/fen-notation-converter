@@ -20,8 +20,4 @@ public class Converter {
 
     return board;
   }
-
-  public static void main(String[] args) {
-    System.out.print(fenConverter("k7/p2q4/3br3/8/7N/8/5K2/8 w - - 0 1"));
-  }
 }
