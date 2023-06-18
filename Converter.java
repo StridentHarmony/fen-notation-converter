@@ -1,3 +1,5 @@
+import java.util.regex.PatternSyntaxException;
+
 public class Converter {
   static char[][] fenConverter(String fenNotation) {
     try {
