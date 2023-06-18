@@ -14,8 +14,8 @@ public class Converter {
 
       String[] fenArray = stageEight.split("/", 8);
 
-      
-    } catch (PatternSyntaxException) {
+
+    } catch (PatternSyntaxException e) {
       System.out.println("Invalid FEN notation!");
     }
 
