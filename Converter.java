@@ -3,7 +3,6 @@ public class Converter {
     String[] trimmedNotation = fenNotation.split(" ", 6);
 
     System.out.println("splitNotation:");
-
     for (int l = 0; l < trimmedNotation.length; l++) {
       System.out.println(trimmedNotation[l]);
     }
@@ -23,7 +22,6 @@ public class Converter {
     String[] fenArray = stageEight.split("/", 8);
 
     System.out.println("fenArray:");
-
     for (int h = 0; h < fenArray.length; h++) {
       System.out.println(fenArray[h]);
     }
@@ -42,7 +40,6 @@ public class Converter {
     char[][] testBoard = fenConverter(testNotation);
 
     System.out.println("Result:");
-
     for (int b = 0; b < testBoard.length; b++) {
       System.out.println(testBoard[b]);
     }
